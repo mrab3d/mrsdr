@@ -1,0 +1,10 @@
+.fa_form_lbldiv {
+    @extend .d-flex;
+    @extend .flex-row-reverse;
+    font-family: 'shabname';
+    div {
+        input {
+            @extend .text-right;
+        }
+    }
+}
